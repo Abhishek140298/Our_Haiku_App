@@ -16,8 +16,8 @@ export default function RootLayout({ children }) {
          </div>
          
         </header>
-        {children}
-        <footer>Footer</footer>
+      <main className="container mx-auto p-10"> {children}</main>
+        <footer className="text-grey-400 text-center text-xs py-5">CopyRight &#64; {new Date().getFullYear()}-All right Reserved</footer>
       </body>
     </html>
   );
